@@ -1,0 +1,54 @@
+Contraseña de VM: francsico13
+
+
+COMANDOS:
+sudo apt install python3-venv
+python3 -m venv nombre_del_entorno
+source nombre_del_entorno/bin/activate
+pip install django
+django-admin startproject nombre_del_proyecto
+cd nombre_del_proyecto
+python manage.py runserver
+deactivate
+
+pip freeze(para enlistar librerías)
+django-admin -h (para ver los subcomandos que este dispone)
+
+
+python3 manage.py runserver 
+ 
+python3 manage.py makemigrations
+ 
+python3 manage.py migrate
+
+
+
+pip install djangorestframework
+
+
+EXTENSIONES:
+sqlite viewer
+copilot
+
+INSTALACIONES:
+PGAdmin4
+postresql
+Postman
+pdadmin4
+pgadmin4
+thunderclient(opcional es similar a Postman)
+
+
+
+
+Subir a git.
+
+-Crear un archivo en la raíz del proyecto llamado ".gitignore"
+
+-git status
+-
+
+
+ENLACES:
+https://www.toptal.com/developers/gitignore
+
